@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "1041578063290",
+    "project_id": "fetchtrue-2025",
+    "storage_bucket": "fetchtrue-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041578063290:android:6c214d4b1ea4468e529983",
+        "android_client_info": {
+          "package_name": "com.example.fetch_true"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4P_Pf34I0keVooS6gsFeMvY-1kycK68c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041578063290:android:48f7b1d684019147529983",
+        "android_client_info": {
+          "package_name": "com.fetchtrue.bizbooster2x"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041578063290-rs114m1dlappj8e2bnj9ug8o88q908qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fetchtrue.bizbooster2x",
+            "certificate_hash": "e151b512c9fddd68c1093b8444f3b0fbe07671fc"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4P_Pf34I0keVooS6gsFeMvY-1kycK68c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
