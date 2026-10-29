@@ -2,7 +2,7 @@ name: fetchtrue
 
 description: "A new Flutter project."
 
-version: 1.0.11+11
+version: 1.0.12+12
 
 environment:
   sdk: ">=3.6.0 <4.0.0"
@@ -24,7 +24,7 @@ dependencies:
   flutter_html_table: ^3.0.0
   youtube_player_flutter: ^9.1.1
   auto_size_text: ^3.0.0
-  font_awesome_flutter: ^10.12.0
+  font_awesome_flutter: ^11.0.0
 
 
 

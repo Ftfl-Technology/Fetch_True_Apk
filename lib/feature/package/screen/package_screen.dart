@@ -622,14 +622,18 @@ Widget _whatsIncludesSection(BuildContext context, String planKey,) {
   );
 }
 
-Widget _iconText({IconData? icon, String? text,double? size, Color? iconColor,Color? textColor}){
+Widget _iconText({dynamic icon, String? text,double? size, Color? iconColor,Color? textColor}){
   return Row(
     spacing: 5,
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       Padding(
         padding: const EdgeInsets.all(3.0),
-        child: Icon(icon,size: size ?? 10,color: iconColor ?? Colors.grey,),
+        child: icon is IconData
+            ? Icon(icon, size: size ?? 10, color: iconColor ?? Colors.grey)
+            : (icon is FaIconData
+                ? FaIcon(icon, size: size ?? 10, color: iconColor ?? Colors.grey)
+                : const SizedBox.shrink()),
       ),
       Expanded(child: Text(text!,style: TextStyle(fontSize: size ?? 12,color: textColor ?? Colors.grey.shade700),))
     ],
